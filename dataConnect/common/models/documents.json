@@ -1,0 +1,63 @@
+{
+  "name": "documents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "unternehmen": {
+      "type": "string",
+      "required": true
+    },
+    "kurzbeschreibung": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "reifegrad": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "nutzenversprechen": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "herausforderungen": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "auswirkungenMensch": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "auswirkungenOrganisation": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "auswirkungenTechnik": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

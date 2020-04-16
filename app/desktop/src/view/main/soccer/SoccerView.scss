@@ -1,0 +1,9 @@
+// sass for TestApp.view.soccer.SoccerView
+.soccerview { 
+  color: $color;
+  font-size: 20px;
+  background-color: $base-foreground-color;
+  padding: 15px 0px 0px 15px;
+  border: 1px solid red;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0.8, 0.4);
+}

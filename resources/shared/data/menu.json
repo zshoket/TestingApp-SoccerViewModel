@@ -1,0 +1,8 @@
+{
+	"root": {
+		"expanded": true,
+		"children": [
+			{ "text": "Personnel", "iconCls": "x-fa fa-cog", "xtype": "personnelview", "leaf": true }
+		]
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "leaf": false,
+  "children": [
+    { "text": "NbaRatings", "iconCls": "x-fa fa-nbaratings", "xtype": "nbaratingsview", "leaf": true },
+    { "text": "Soccer", "iconCls": "x-fa fa-soccer", "xtype": "soccerview", "leaf": true },
+    { "text": "Personnel", "iconCls": "x-fa fa-table", "xtype": "personnelview","leaf": true }
+  ]
+}
