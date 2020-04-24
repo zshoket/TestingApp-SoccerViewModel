@@ -13,13 +13,6 @@ Ext.define('TestApp.view.soccer.SoccerView',{
         }
     },
     columns: [
-        // {
-        //     text: 'Player',
-        //     dataIndex: 'player',
-        //     editable: true,
-        //     width: 200,
-        //     cell: {userCls: 'bold'}
-        // },
         {
             text: 'Name',
             dataIndex: 'name',
@@ -28,8 +21,8 @@ Ext.define('TestApp.view.soccer.SoccerView',{
             cell: {userCls: 'bold'}
         },
         {
-            text: 'unternehmen',
-            dataIndex: 'Unternehmen',
+            text: 'Unternehmen',
+            dataIndex: 'unternehmen',
             editable: true,
             width: 230
         },

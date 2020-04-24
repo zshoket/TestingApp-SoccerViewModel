@@ -5,7 +5,7 @@ Ext.define('TestApp.view.nbaratings.NbaRatingsView',{
 	controller: {type: 'nbaratingsviewcontroller'},
 	viewModel: {type: 'nbaratingsviewmodel'},
 	requires: ['Ext.grid.rowedit.Plugin'],
-	store: {type: 'soccershared'},
+	store: {type: 'futyshared'},
 	grouped: true,
 	
 	plugins: {
